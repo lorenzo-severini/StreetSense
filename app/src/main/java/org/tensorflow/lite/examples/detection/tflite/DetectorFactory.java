@@ -16,7 +16,7 @@ public class DetectorFactory {
         int[][] masks = new int[][]{{0}};
         int[] anchors = new int[]{0};
 
-        if (modelFilename.equals("yolov5_320.tflite")) {
+        if (modelFilename.equals("yolov5_640.tflite")) {
             labelFilename = "file:///android_asset/customclasses.txt";
             isQuantized = false;
             inputSize = 640;
