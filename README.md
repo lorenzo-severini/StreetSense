@@ -47,6 +47,10 @@ The deployment was done on different physical devices with different Android ver
   <img src="img/detection2.jpg" alt="Detection #2" width="300"/>
 </div>
 
+
+
+
+
 ## Future developments
 The project lends itself to further future developments, such as the search for a larger and more complete dataset that could significantly improve the accuracy of the model, which would therefore allow the number of recognized vehicle categories to be expanded (e.g. bicycles, electric scooters, emergency etc.) and perhaps to differentiate between subcategories within existing classes (e.g. distinguish cars between sports cars, SUVs, and sedans).
 StreetSense could be integrated with autonomous driving systems to improve traffic safety and efficiency or used to collect real-time traffic data and improve urban management.
