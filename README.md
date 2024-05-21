@@ -1,4 +1,4 @@
-# streetsense
+# StreetSense
 ## Training the neural network
 YOLOv5 was used to train the neural network (from [ultralytics/yolov5](https://github.com/ultralytics/yolov5/tree/master)), running the train.py file like this:
 ```
