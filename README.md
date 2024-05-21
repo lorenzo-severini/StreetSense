@@ -31,8 +31,13 @@ where:
 - **saved_model_dir**: Specifies the directory that contains the TensorFlow model saved in the SavedModel format.
 - **output_file**: Specifies the path and name of the output file for the converted model.
 
+
+
 ## Structure
 Our starting point was the structure of an Android application that uses a TFLite model for real-time object detection using streaming from the camera ([AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5](https://github.com/AarohiSingla/TFLite-Object-Detection-Android-App-Tutorial-Using-YOLOv5)). In this new architecture we imported our TFLite model, modified some parameters to adapt it to our network and used the .xml file present in the assets directory as the "skeleton" of our layout to be presented to the user.
+
+
+
 
 ## Deployment
 The deployment was done on different physical devices with different Android versions in order to test their functioning. It was done on Xiaomi 11T Android 14 version and Samsung s10e Android 10 version where both executions were successful.
