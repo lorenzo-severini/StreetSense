@@ -38,8 +38,8 @@ Our starting point was the structure of an Android application that uses a TFLit
 The deployment was done on different physical devices with different Android versions in order to test their functioning. It was done on Xiaomi 11T Android 14 version and Samsung s10e Android 10 version where both executions were successful.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="img/detection1.jpg" alt="Detection #1" width="400"/>
-  <img src="img/detection2.jpg" alt="Detection #2" width="400"/>
+  <img src="img/detection1.jpg" alt="Detection #1" width="300"/>
+  <img src="img/detection2.jpg" alt="Detection #2" width="300"/>
 </div>
 
 ## Future developments
