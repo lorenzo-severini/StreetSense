@@ -37,9 +37,10 @@ Our starting point was the structure of an Android application that uses a TFLit
 ## Deployment
 The deployment was done on different physical devices with different Android versions in order to test their functioning. It was done on Xiaomi 11T Android 14 version and Samsung s10e Android 10 version where both executions were successful.
 
-![Detection #1](img/detection1.jpg)
-![Detection #2](img/detection2.jpg)
-
+<div style="display: flex; justify-content: space-around;">
+  <img src="img/detection1.jpg" alt="Detection #1" width="400"/>
+  <img src="img/detection2.jpg" alt="Detection #2" width="400"/>
+</div>
 
 ## Future developments
 The project lends itself to further future developments, such as the search for a larger and more complete dataset that could significantly improve the accuracy of the model, which would therefore allow the number of recognized vehicle categories to be expanded (e.g. bicycles, electric scooters, emergency etc.) and perhaps to differentiate between subcategories within existing classes (e.g. distinguish cars between sports cars, SUVs, and sedans).
