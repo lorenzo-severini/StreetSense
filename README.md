@@ -28,8 +28,8 @@ After obtaining the file in ".pb" format, the "tflite_convert" command from the 
 tflite_convert --saved_model_dir runs/train/trained_150/weights/best_saved_model --output_file model.tflite
 ```
 where:
-- saved_model_dir: Specifies the directory that contains the TensorFlow model saved in the SavedModel format.
-- output_file: Specifies the path and name of the output file for the converted model.
+- **saved_model_dir**: Specifies the directory that contains the TensorFlow model saved in the SavedModel format.
+- **output_file**: Specifies the path and name of the output file for the converted model.
 
 ## Structure
 Our starting point was the structure of an Android application that uses a TFLite model for real-time object detection using streaming from the camera ([AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5](https://github.com/AarohiSingla/TFLite-Object-Detection-Android-App-Tutorial-Using-YOLOv5)). In this new architecture we imported our TFLite model, modified some parameters to adapt it to our network and used the .xml file present in the assets directory as the "skeleton" of our layout to be presented to the user.
