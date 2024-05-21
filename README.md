@@ -1,6 +1,6 @@
 # streetsense
 ## Training the neural network
-YOLOv5 was used to train the neural network (from https://github.com/ultralytics/yolov5/tree/master/data), running the train.py file like this:
+YOLOv5 was used to train the neural network (from [ultralytics/yolov5](https://github.com/ultralytics/yolov5/tree/master)), running the train.py file like this:
 ```
 python yolov5\train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch.yaml --batch 32 --epochs 100 --data road_sign_data.yaml --weights yolov5\runs\train\trained_50\weights\best.pt --workers 24 --name trained_150
 ```
@@ -32,7 +32,7 @@ where:
 - output_file: Specifies the path and name of the output file for the converted model.
 
 ## Structure
-Our starting point was the structure of an Android application that uses a TFLite model for real-time object detection using streaming from the camera. In this architecture (https://github.com/AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5/tree/main), we imported our TFLite model, modified some parameters to adapt it to our network and used the .xml file present in the assets directory as the "skeleton" of our layout to be presented to the user.
+Our starting point was the structure of an Android application that uses a TFLite model for real-time object detection using streaming from the camera. In this architecture ([AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5]https://github.com/AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5/tree/main), we imported our TFLite model, modified some parameters to adapt it to our network and used the .xml file present in the assets directory as the "skeleton" of our layout to be presented to the user.
 
 ## Deployment
 The deployment was done on different physical devices with different Android versions in order to test their functioning. It was done on Xiaomi 11T Android 14 version and Samsung s10e Android 10 version where both executions were successful.
