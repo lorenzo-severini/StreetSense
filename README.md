@@ -34,8 +34,7 @@ where:
 
 
 ## Structure
-Our starting point was the structure of an Android application that uses a TFLite model for real-time object detection using streaming from the camera ([AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5](https://github.com/AarohiSingla/TFLite-Object-Detection-Android-App-Tutorial-Using-YOLOv5)). In this new architecture we imported our TFLite model, modified some parameters to adapt it to our network and used the .xml file present in the assets directory as the "skeleton" of our layout to be presented to the user.
-
+Our starting point was an Android application framework, sourced from [AarohiSingla/TFLite-Object-DetectionAndroid-App-Tutorial-Using-YOLOv5](https://github.com/AarohiSingla/TFLite-Object-Detection-Android-App-Tutorial-Using-YOLOv5) that makes use of a TFLite model for real-time object detection using the streaming coming from the camera. In this new architecture we imported our TFLite model, modified some parameters to adapt it to our network and used the .xml file present in the assets directory as the "skeleton" of our layout to present to the user.
 
 
 
