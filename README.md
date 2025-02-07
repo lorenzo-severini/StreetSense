@@ -43,7 +43,8 @@ The deployment was done on different physical devices with different Android ver
 </div>
 
 
-
+## License
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Future developments
